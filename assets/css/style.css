@@ -1,0 +1,18 @@
+.identite{
+  background-color : blue;
+  display:block;
+  width:200px;
+  text-align:left;
+}
+.adresse{
+  background-color : #9A12B3;
+  display:block;
+  width:200px;
+  text-align:left;
+  }
+.paiement{
+  background-color: #DB0A5B;
+  display:block;
+  width:200px;
+  text-align:left;
+}

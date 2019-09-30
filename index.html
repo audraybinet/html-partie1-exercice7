@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <title>exercice7</title>
+  </head>
+  <body>
+    <fieldset class="identite">
+      <legend> Votre identité: </legend>
+      <label for="name">1.Nom: </label>
+      <input type="text" name="name" size="20"
+      maxlength="40" value="Nom" id="Nom" />
+      <label for="surname">2.Prénom: </label>
+      <input type="text" name="surname" size="20"
+       maxlength="40" value="prénom" id="prénom" />
+      <label for="email">3.Votre email :</label>
+      <input type="email" name="email" size="20"
+  maxlength="40" value="mail" id="mail" />
+    </fieldset>
+    <fieldset class="adresse">
+    <div class "adresse"></div>
+    <legend> Adresse de livraison </legend>
+    <label for="comments">1.adresse:</label>
+    <textarea name="comments" id="comments" cols="20" rows="4">
+    </textarea>
+    <label for="cp">2.Code postal:</label>
+    <input type="text" name="cp" size="20"
+   maxlength="40" value="code postal" id="code postal" />
+   <label for="city">3.Ville:</label>
+   <input type="text" name="city" size="20"
+    maxlength="40" value="Ville" id="Ville" />
+  </fieldset>
+  <fieldset class="paiement">
+  <div class "paiement"></div>
+  <legend> Informations de réglement </legend>
+  <label for="comments">1.type de carte bancaire:</label>
+  <input type="radio"name="CSS" value="visa" id="visa"
+     checked="checked"/>
+  <label for="visa" class="inline">visa</label>
+  <input type="radio"name="CSS" value="visa" id="visa"
+       checked="checked"/>
+  <label for="Masterclass" class="inline">Masterclass</label>
+  <label for="cb">2.Numéro de carte:</label>
+  <input type="text" name="cb" size="20"
+   maxlength="40" value="Numéro de carte" id="Numéro de carte"/>
+  <label for="securityid">3.Code de sécurité:</label>
+  <input type="text" name="securityid" size="20"
+    maxlength="40" value="code de sécurité" id="code de sécurité"/>
+  <label for="securityid">4.Nom du titulaire:</label>
+  <input type="text" name="nameid" size="20"
+     maxlength="40" value="Nom du titulaire" id="Nom du titulaire"/>
+</fieldset>
+<input type="button" name="j'achète" value="j'achète">
+</body>
+</html>
